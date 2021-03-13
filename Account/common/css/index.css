@@ -1,0 +1,15 @@
+.content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(https://vkceyugu.cdn.bspapp.com/VKCEYUGU-69daef55-e76d-404d-9c03-fedd338d3f3d/76a4a24e-09cb-4470-a261-31f428841a73.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+}
+.start{
+	position: absolute;
+	left: 25%;
+	bottom: 20%;
+	width: 50%;
+}

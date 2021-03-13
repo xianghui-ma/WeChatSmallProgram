@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/newAccount/newAccount",
+    "pages/setAccountStyle/setAccountStyle",
+    "pages/spendList/spendList",
+    "pages/calendar/calendar",
+    "pages/accountDetail/accountDetail",
+    "pages/outIn/outIn"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "uni-app",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#333333",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap61.json"
+}

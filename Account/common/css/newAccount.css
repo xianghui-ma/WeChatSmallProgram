@@ -1,0 +1,187 @@
+.content{
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+	position: relative;
+}
+.switchStyle{
+	z-index: 1;
+}
+.switchStyle,
+.switchStyleButton{
+	position: absolute;
+	left: 5%;
+	top: 3%;
+	width: 60rpx;
+	height: 60rpx;
+}
+swiper{
+	height: 100%;
+}
+swiper-item .desc{
+	margin: 20% 2% 0 2%;
+	border-radius: 40rpx;
+	height: 80%;
+	display: flex;
+	flex-direction: column-reverse;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 30% 30%;
+	background-size: cover;
+}
+swiper-item .desc .operation{
+	border-radius: 40rpx;
+}
+swiper-item .accountName{
+	font-size: 40rpx;
+	line-height: 96rpx;
+	color: #333333;
+	background-color: #fff;
+	padding-left: 30rpx;
+}
+swiper-item .createDate{
+	padding-left: 30rpx;
+	font-size: 32rpx;
+	line-height: 64rpx;
+	color: #808080;
+	background-color: #fff;
+}
+swiper-item .updateButton{
+	background-color: #fff;
+	height: 100rpx;
+	position: relative;
+}
+swiper-item .updateButton .update,
+swiper-item .updateButton image{
+	width: 60rpx;
+	height: 60rpx;
+	position: absolute;
+	right: 5%;
+	top: 25%;
+}
+swiper-item .createNewAccount{
+	margin: 20% 2% 0 2%;
+	border-radius: 40rpx;
+	border: 4rpx solid #C0C0C0;
+	height: 80%;
+	color: #C0C0C0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+swiper-item .createNewAccount .motto,
+swiper-item .createNewAccount .tip{
+	width: 50%;
+	font-size: 30rpx;
+	line-height: 60rpx;
+	margin: 40rpx 0;
+}
+swiper-item .createNewAccount .createButton,
+swiper-item .createNewAccount .createButton image{
+	width: 80rpx;
+	height: 80rpx;
+}
+
+/*列表展示风格*/
+.showArea{
+	width: 100%;
+	/* height: 100%; */
+	padding-top: 20%;
+	position: relative;
+}
+.showArea .year{
+	font-size: 36rpx;
+	font-weight: 400;
+	position: absolute;
+	left: -25%;
+	top: 0%;
+	color: #fff;
+}
+.accountList{
+	width: 76%;
+	/* height: 100%; */
+	margin-left: 20%;
+	box-sizing: border-box;
+	border-left: 4rpx solid #fff;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.accountList .addNewAccount{
+	border: 4rpx dashed #fff;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20rpx;
+	margin-bottom: 40rpx;
+}
+.accountList .addNewAccount .addButton,
+.accountList .addNewAccount .addButton image{
+	width: 60rpx;
+	height: 60rpx;
+}
+.accountList .addNewAccount .addButton{
+	padding: 50rpx 0rpx 30rpx 0rpx;
+}
+.accountList .addNewAccount .addTip{
+	font-size: 30rpx;
+	line-height: 130rpx;
+	color: #fff;
+	text-align: center;
+}
+.accountList .addNewAccount .currentTime,
+.accountList .listItem .buildDate{
+	position: absolute;
+	color: #fff;
+	font-size: 24rpx;
+	left: -32%;
+	top: 41%;
+}
+.accountList .addNewAccount .circlePoint,
+.accountList .listItem .circlePoint{
+	position: absolute;
+	left: -6%;
+	top: 44%;
+	width: 18rpx;
+	height: 18rpx;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+}
+.accountList .listItem{
+	position: relative;
+	height: 278rpx;
+	border-radius: 20rpx;
+	margin-bottom: 40rpx;
+	
+	background-color: #007AFF;
+}
+.accountList .listItem .wrapper{
+	display: flex;
+	flex-direction: column-reverse;
+	border-radius: 20rpx;
+	overflow: hidden;
+	height: 100%;
+}
+.accountList .listItem .AccountInfo{
+	font-size: 34rpx;
+	color: #333333;
+	display: flex;
+	justify-content: space-between;
+	padding: 10rpx 20rpx;
+	background-color: #fff;
+	align-items: center;
+}
+.accountList .listItem .AccountInfo .edit,
+.accountList .listItem .AccountInfo .edit image{
+	width: 40rpx;
+	height: 40rpx;
+}
+.accountList .listItem .buildDate{
+	left: -30%;
+}
+.accountList .listItem .circlePoint{
+	position: absolute;
+	left: -5%;
+} 

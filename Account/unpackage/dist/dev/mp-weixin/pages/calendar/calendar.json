@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "default",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

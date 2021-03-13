@@ -1,0 +1,1 @@
+<view class="content"><button class="start" type="warn" data-event-opts="{{[['tap',[['startAccount',['$event']]]]]}}" bindtap="__e">开始记账</button></view>
